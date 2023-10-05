@@ -1,0 +1,134 @@
+body{
+    background-image: linear-gradient(to top, rgb(217, 236, 186), violet);
+    /* border:2px solid red; */
+    height:100vh;
+  }
+  
+  
+  
+  .container {
+    width: 30vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     margin: 40px 30vw;
+    margin-right: 20vw;
+    padding: 10px;
+    box-shadow: 0px 9px 10px 0px #0000000d;
+    padding-bottom: 20px;
+    height:70vh;
+    border:2px solid black;
+  }
+  .container h3{
+      text-align: center;
+  }
+  
+  form {
+    width: 20vw;
+  }
+  input {
+    width: 25vw;
+    height: 30px;
+    margin: 10px;
+    padding: 0px 10px;
+    outline: 1px solid black;
+  }
+  label {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  #signup-form {
+    width: 30vw;
+    height: 50vh;
+    /* border:2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  
+  #button {
+    background-image: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+    /* font-size: 20px; */
+    width: 25vw;
+   height:30vh;
+    display: flex;
+    margin: 10px;
+    height: 50px;
+    justify-content: center;
+    /* height:100px; */
+    color: white;
+    align-items: center;
+    border-radius: 6px;
+    gap: 10px;
+    font-size: 17px;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12vw;
+  }
+  
+  .profile-heading {
+    text-align: center;
+  }
+  .profile-button {
+    width: 20vw;
+    height: 5vh;
+    margin: 0vw 5vw;
+    background-image: linear-gradient(180deg, #625bf7 0%, #463eea 100%);
+    color: white;
+    gap: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top:20px;
+  }
+  
+  
+  .container-2 {
+    width: 30vw;
+    margin: 20px;
+    height:70vh;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 30vw;
+    margin-right: 20vw;
+    padding: 10px;
+    box-shadow: 0px 6px 8px 0px #0000000d;
+  }
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height:100vh; */
+   
+    /* display: none; */
+  }
+  
+  
+  .signup-container h3{
+      /* display: ; */
+      text-align: center;
+  }
+  @media screen and (max-width: 650px) {
+    .container {
+      width: 80vw;
+      border: 2px solid green;
+      padding: 10px;
+      margin: 0px;
+    }
+    input {
+      width: 50vw;
+    }
+   
+    button {
+      width: 300px;
+      height: 40px;
+    }
+  }
